@@ -19,3 +19,7 @@
 - [x] Test GET /download-report endpoint: downloads CSV report (returned CSV with headers and data)
 - [x] Test GET /reports.html endpoint: serves reports page (returned HTML content)
 - [x] Open app in browser at localhost:4000 for UI verification
+- [x] Update CI/CD pipeline to show commit message as run name (added run-name: ${{ github.event.head_commit.message }})
+- [x] Commit and push the CI/CD pipeline update to trigger new pipeline run with custom name
+- [x] Fix CI/CD pipeline: switch from GHCR to Docker Hub due to permission issues
+- [x] Commit and push the Docker Hub registry fix to trigger successful pipeline run

@@ -29,7 +29,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: docker.io/praisy0105/dbmspro:latest
+        tags: docker.io/mahimaj/dbmspro:latest
 
     - name: Run tests (if any)
       run: |
