@@ -5,3 +5,4 @@
 - [x] Create .github/workflows/ci.yml for GitHub Actions CI/CD pipeline (build, test, push image)
 - [x] Commit and push changes to GitHub repository (https://github.com/Praisy0105/dbms-pro) to trigger CI/CD pipeline
 - [x] Monitor CI/CD pipeline results on GitHub (opened GitHub Actions page)
+- [x] Install GitHub CLI and attempt to create PR (authentication required)
