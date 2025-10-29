@@ -22,4 +22,5 @@
 - [x] Update CI/CD pipeline to show commit message as run name (added run-name: ${{ github.event.head_commit.message }})
 - [x] Commit and push the CI/CD pipeline update to trigger new pipeline run with custom name
 - [x] Fix CI/CD pipeline: switch from GHCR to Docker Hub due to permission issues
+- [x] Update Docker image tag to use correct Docker Hub username (mahimaj/dbmspro:latest)
 - [x] Commit and push the Docker Hub registry fix to trigger successful pipeline run
