@@ -10,3 +10,12 @@
 - [x] Commit and push fix to trigger updated CI/CD pipeline
 - [x] Update Git remote URL to new repository name (dbmspro)
 - [x] Push changes to new repository and monitor CI/CD pipeline
+- [x] Fix CI/CD pipeline: hardcode correct repository name for Docker tag
+- [x] Commit and push final fix to trigger successful CI/CD pipeline
+- [x] Test GET / endpoint: serves HTML page successfully
+- [x] Test GET /transactions endpoint: fetches transactions from MongoDB (returned existing transactions)
+- [x] Test POST /transactions endpoint: adds new transaction (added test expense successfully)
+- [x] Test GET /transactions after POST: confirms new transaction persisted (now shows 2 transactions)
+- [x] Test GET /download-report endpoint: downloads CSV report (returned CSV with headers and data)
+- [x] Test GET /reports.html endpoint: serves reports page (returned HTML content)
+- [x] Open app in browser at localhost:4000 for UI verification
