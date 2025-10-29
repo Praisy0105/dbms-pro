@@ -34,3 +34,6 @@
 - [x] Set DOCKER_USERNAME and DOCKER_PASSWORD repository secrets using GitHub CLI
 - [x] Commit and push changes to trigger CI/CD pipeline with resolved Docker login
 - [x] Monitor CI/CD pipeline results on GitHub Actions
+- [x] Fix Docker Hub credentials: update username to mahimaj and password to 28@Jan2005
+- [x] Update CI/CD pipeline image tag to use correct Docker Hub username
+- [x] Commit and push fixes to trigger successful CI/CD pipeline
