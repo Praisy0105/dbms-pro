@@ -30,3 +30,7 @@
 - [x] Test GET /download-report endpoint: downloads CSV report
 - [x] Test GET /reports.html endpoint: serves reports page
 - [x] Open app in browser at localhost:4000 for UI verification
+- [x] Authenticate GitHub CLI with personal access token
+- [x] Set DOCKER_USERNAME and DOCKER_PASSWORD repository secrets using GitHub CLI
+- [x] Commit and push changes to trigger CI/CD pipeline with resolved Docker login
+- [x] Monitor CI/CD pipeline results on GitHub Actions
