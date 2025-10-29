@@ -24,7 +24,7 @@ jobs:
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Set image name
-      run: echo "IMAGE_NAME=ghcr.io/$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]'):latest" >> $GITHUB_ENV
+      run: echo "IMAGE_NAME=ghcr.io/praisy0105/dbmspro:latest" >> $GITHUB_ENV
 
     - name: Build and push Docker image
       uses: docker/build-push-action@v4
